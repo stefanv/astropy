@@ -596,3 +596,11 @@ ignore-words-list = """
     watn,
     watstr,
     wirth"""
+
+[tool.devpy]
+package = 'astropy'
+
+[tool.devpy.commands]
+Build = [
+    '.devpy/cmds.py:build'
+]
